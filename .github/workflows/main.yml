@@ -17,7 +17,7 @@ jobs:
       uses: Azure/cli@1.0.4
       with:
         inlineScript: |
-            az storage blob upload-batch --account-name resumestorage11 --destination '$web' --source DamilolaAdeniyi-Resume
+            az storage blob upload-batch --account-name resumestorage11 --destination '$web' --source DAMILOLAADENIYI-RESUME
     - name: Purge CDN endpoint
       uses: Azure/cli@1.0.4
       with:
